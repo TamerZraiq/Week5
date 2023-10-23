@@ -5,6 +5,12 @@ public class Person {
     String lastName;
     int age;
 
+    public Person(){
+        this.firstName = "Tamer";
+        this.lastName = "Zraiq";
+        this.age = 18;
+    }
+    
     public Person(String firstName, String lastName, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -12,6 +18,6 @@ public class Person {
     }
 
     public void displayInfo(){
-        System.out.println("Name: " + firstName + " " + lastName + "Age: "+ age);
+        System.out.println("Name: " + firstName + " " + lastName + " Age: "+ age);
     }
 }
